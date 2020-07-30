@@ -1,6 +1,13 @@
 <?php
+$abjad = "abcdefghijklmnopqrstuvwxyz"
+$output = "";
+
 function ubah_huruf($string){
-//kode di sini
+	for($i=0; $i < strlen($string); $i++){
+	$position = strrpos($abjad, substr[$i];
+	$output .= substr($abjad, $position+1, 1);
+	}
+	return $output;
 }
 
 // TEST CASES
